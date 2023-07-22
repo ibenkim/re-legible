@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+a{
+    color: inherit;
+}
+
 html, body{
     height: 100%;
     font-family: 'Lato', sans-serif;
