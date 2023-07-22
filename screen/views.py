@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, "hello/index.html")
+    return render(request, "screen/index.html")
 
 def ben(request):
     return HttpResponse("Welcome, master.")
