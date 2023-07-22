@@ -105,6 +105,26 @@ body {
     border: 5px solid black;
     border-radius: 75px;
     margin-right: 300px;
+    position: relative;
+}
+
+.conbutton:hover::before {
+    content: "Click to begin test";
+    display: block;
+    position: absolute;
+    left: -185px;
+    top: 15px;
+    padding: 7px;
+    background-color: rgba(51, 119, 148, 0.8);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.conbutton:hover::before {
+    opacity: 1;
 }
 
 #arrow1{
