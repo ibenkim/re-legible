@@ -59,5 +59,72 @@ body {
 }
 
 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-grow: 2;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 80%;
+}
+
+#welcome{
+    display: flex;
+    font-size: 80px;
+    padding-left: 200px;
+    align-items: end;
+    flex-grow: 1;
+}
+
+#message{
+    display: flex;
+    font-size: 40px;
+    word-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#button{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.conbutton{
+    height: 75px;
+    width: 75px;
+    border: 5px solid black;
+    border-radius: 75px;
+    margin-right: 300px;
+}
+
+#arrow1{
+    position: relative;
+    background-color: black;
+    left: 20px;
+    top: 23px;
+    width: 45px;
+    height: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    transform: rotate(0.60turn);
+}
+
+#arrow2{
+    position: relative;
+    background-color: black;
+    left: 20px;
+    top: 32px;
+    width: 45px;
+    height: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    transform: rotate(.40turn);
 }

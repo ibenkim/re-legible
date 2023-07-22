@@ -1,21 +1,15 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="{% static 'screen/styles.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/screen/styles.css">
 </head>
 <body>
     <div class="nav">
         <div id="logo">
-<<<<<<< Updated upstream
-            <img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage">
-=======
-            <img src="./images/inklusive_logo.png" width="200" id="logoimage">
->>>>>>> Stashed changes
+            <img src="../../static/screen/images/inklusive_logo.png" width="200" id="logoimage">
         </div>
         <div id="nav2">
             <h2>About</h2>
@@ -24,25 +18,16 @@
         </div>
     </div>
     <div class="content">
-<<<<<<< Updated upstream
-            
+        <div id="home">
+            <div id="welcome"><strong>Welcome</strong></div>
+            <div id="message">to the &nbsp;<strong>accessible</strong>&nbsp; and &nbsp;<strong>inclusive</strong>&nbsp;future of dyslexia detection</div>
+            <div id="button">
+                <div class="conbutton">
+                    <div id="arrow1"></div>
+                    <div id="arrow2"></div>
+                </div>
+            </div>
         </div>
-        <div id="nav2">
-            <h3><a href="{% url 'about:about' %}">About</a></h3>
-            <h3><a href="{% url 'project:project' %}">Project</a></h3>
-            <h3><a href="{% url 'testing:testing' %}">Testing</a></h3>
-        </div>
-    </div>
-    <div>
-        <h1></h1>
-        <div></div>
-=======
-        <div class="subcontent">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
->>>>>>> Stashed changes
     </div>
     <div class="footer">
         <p>Inklusive @ STEMist Hacks 2.0</p>
