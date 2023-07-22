@@ -14,9 +14,9 @@
             <img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage">
         </div>
         <div id="nav2">
-            <h2>About</h2>
-            <h2>Project</h2>
-            <h2>Testing</h2>
+            <h2><a href="{% url 'about:about' %}">About</a></h2>
+            <h2><a href="{% url 'resources:resources' %}">Resources</a></h2>
+            <h2><a href="{% url 'testing:testing' %}">Testing</a></h2>
         </div>
     </div>
     <div class="content">

@@ -21,6 +21,13 @@ body {
     background-size: cover;
 }
 
+h3 {
+    font-size: 20px;
+    color:#78A2CC;
+    position:relative;
+    bottom: -125px;
+}
+
 .nav{
     background-color: #4682B4;
     display: flex;
