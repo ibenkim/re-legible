@@ -11,7 +11,7 @@
 <body>
     <div class="nav">
         <div id="logo" onclick="window.location.href='/'">
-            <a><img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage"></a>
+            <img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage">
         </div>
         <div id="nav2">
             <h2><a href="{% url 'about:about' %}">About</a></h2>
@@ -23,7 +23,8 @@
             
         </div>
         <div id="nav2">
-            
+            <h3><a href="{% url 'about:about' %}">About</a></h3>
+            <h3><a href="{% url 'testing:testing' %}">Testing</a></h3>
         </div>
     </div>
     <div>
