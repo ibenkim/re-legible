@@ -106,6 +106,17 @@ h3 {
     justify-content: end;
 }
 
+.gray-square {
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .conbutton{
     height: 75px;
     width: 75px;
