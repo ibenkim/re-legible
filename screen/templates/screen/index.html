@@ -17,6 +17,14 @@
             <h2><a href="{% url 'testing:testing' %}">Testing</a></h2>
         </div>
     </div>
+    <script>
+        function startup() {
+            const temp = document.getElementById('welcome');
+            temp.classList.add('move');
+        }
+        window.addEventListener('load', startup);
+    </script>
+
     <div class="content">
         <div id="home">
             <div id="welcome"><strong>Welcome</strong></div>
