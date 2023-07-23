@@ -9,6 +9,13 @@
     <link href="{% static 'screen/styles.css' %}" rel="stylesheet">
 </head>
 <body>
+    <script>
+        window.addEventListener('load', finputs);
+        function finputs() {
+            const finput = document.getElementById('files');
+            finput.classList.add('loaded');
+        }
+    </script>
     <div class="nav">
         <div id="logo" onclick="window.location.href='/'">
             <img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage">
@@ -19,22 +26,18 @@
             <h2><a href="{% url 'testing:testing' %}">Testing</a></h2>
         </div>
     </div>
+    <div class="gray-square"></div>
+    <input class="files" type="file" id="files" name="files" accept="image/png, image/jpeg">
     <div class="content">
-    
-    </div>
-        <h4>
-            Using machine learning, this website discovers early symptoms of dyslexia by identifying whether a handwriting is written by a person or not, 
-            based on the common symptom of letter reversals, providing them doctor-free diagnosis. 
-            This web app can be used in large classrooms to decrease time spent by teachers on analyzing handwriting. 
-        </h4>
+            
+        </div>
         <div id="nav2">
-            <h3><a href="{% url 'testing:upload' %}">Upload your File</a></h3>
+            <h3><a href="{% url 'testing:testing' %}">Return</a></h3>
+            <h3><a href="{% url 'testing:result' %}">See Results</a></h3>
         </div>
     </div>
     <div>
-        <h1></h1>
-
-        <div></div>
+        
     </div>
     <div class="footer">
         <p>Inklusive @ STEMist Hacks 2.0</p>
