@@ -9,6 +9,13 @@
     <link href="{% static 'screen/styles.css' %}" rel="stylesheet">
 </head>
 <body>
+    <script>
+        window.addEventListener('load', finputs);
+        function finputs() {
+            const finput = document.getElementById('files');
+            finput.classList.add('loaded');
+        }
+    </script>
     <div class="nav">
         <div id="logo" onclick="window.location.href='/'">
             <img src="{% static 'screen/images/inklusive_logo.png' %}" width="200" id="logoimage">

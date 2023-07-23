@@ -183,3 +183,11 @@ h4 {
     border-bottom-right-radius: 10px 10px;
     transform: rotate(.40turn);
 }
+
+input.files {
+    opacity: 0;
+    transition: opacity 2s;
+}
+input.files.loaded {
+    opacity: 1;
+}
