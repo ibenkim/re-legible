@@ -17,6 +17,10 @@ body {
     background-size: cover;
 }
 
+.flex{
+    display: flex;
+}
+
 .nav{
     background-color: #4682B4;
     display: flex;
@@ -61,3 +65,6 @@ body {
 .content{
     flex-grow: 2;
 }
+
+
+

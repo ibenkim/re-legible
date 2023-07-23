@@ -203,3 +203,22 @@ input.files.loaded {
 #fileupload{
  display: flex;
 }
+
+#title{
+    display: flex;
+    font-size: 4em;
+    
+    font-weight: 600;
+
+}
+
+.bigasstext{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-weight: 600;
+    font-size: 1.5em;
+}
