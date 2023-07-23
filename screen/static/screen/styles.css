@@ -132,10 +132,6 @@ h4 {
     height: 350px;
     background-color: #D9D9D9;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
 .conbutton{
@@ -198,4 +194,12 @@ input.files {
 }
 input.files.loaded {
     opacity: 1;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+#fileupload{
+ display: flex;
 }
