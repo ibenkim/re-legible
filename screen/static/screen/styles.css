@@ -28,6 +28,13 @@ h3 {
     bottom: -125px;
 }
 
+h4 {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    color: #23395d;
+}
+
 .nav{
     background-color: #4682B4;
     display: flex;
@@ -115,7 +122,7 @@ h3 {
 .gray-square {
     width: 350px;
     height: 350px;
-    background-color: gray;
+    background-color: #D9D9D9;
     border-radius: 20px;
     position: absolute;
     top: 50%;
