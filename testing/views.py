@@ -13,13 +13,14 @@ def result(request):
     return render(request, "testing/result.html")
 
 def upload(request):
+    threshold = 140
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
         fs = FileSystemStorage()
         filename = fs.save(myfile.name, myfile)
         uploaded_file_url = fs.url(filename)
         print('uploaded url: ' + uploaded_file_url)
-        result = predict(uploaded_file_url[1:])
+        result = predict(uploaded_file_url[1:], threshold)
         print('result: ' + str(result))
         return render(request, 'testing/result.html', {
             'uploaded_file_url': uploaded_file_url,
