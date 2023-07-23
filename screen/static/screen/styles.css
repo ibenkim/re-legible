@@ -21,6 +21,12 @@ body {
     background-size: cover;
 }
 
+h5 {
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+
 h3 {
     font-size: 20px;
     color:#78A2CC;
