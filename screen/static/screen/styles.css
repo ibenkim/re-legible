@@ -106,6 +106,12 @@ h3 {
     justify-content: end;
 }
 
+.files {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+
 .gray-square {
     width: 350px;
     height: 350px;
